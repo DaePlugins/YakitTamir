@@ -55,7 +55,6 @@ namespace DaeYakitTamir
             }
 
             var bakiye = YakıtTamir.Örnek.Configuration.Instance.XpKullanılsın ? oyuncu.Experience : Uconomy.Instance.Database.GetBalance(komutuÇalıştıran.Id);
-
             var bakiyedenDüşülecekMiktar = YakıtTamir.Örnek.Configuration.Instance.SabitFiyataTamirEt ?
                 YakıtTamir.Örnek.Configuration.Instance.SabitTamirÜcreti :
                 tamirEdilecekMiktar * YakıtTamir.Örnek.Configuration.Instance.SağlıkBaşınaÜcret;

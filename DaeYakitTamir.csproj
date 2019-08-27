@@ -5,6 +5,7 @@
     <DebugSymbols>false</DebugSymbols>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
+
   <ItemGroup>
     <Reference Include="Uconomy">
       <HintPath>Kaynak Kütüphaneler\Uconomy.dll</HintPath>

@@ -27,7 +27,7 @@ namespace DaeYakitTamir
             { "YakıtDolduruldu", "Aracının yakıtı {1} karşılığı dolduruldu. Mevcut bakiyen: {0}" },
             { "TamirEdilemez", "Bu aracı tamir edemezsin." },
             { "TamirEdilmiş", "Aracında en ufak bir çizik bile yok." },
-            { "TamirEdildi", "Aracın {1} karşılığı tamir edildi. Mevcut bakiyen: {0}" },
+            { "TamirEdildi", "Aracın {1} karşılığı tamir edildi. Mevcut bakiyen: {0}" }
         };
     }
 }
