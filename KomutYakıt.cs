@@ -76,7 +76,7 @@ namespace DaeYakitTamir
 
             araç.askFillFuel(YakıtTamir.Örnek.Configuration.Instance.SabitFiyataDoldur ? araç.asset.fuel : doldurulacakMiktar);
 
-			UnturnedChat.Say(oyuncu, YakıtTamir.Örnek.Translate("YakıtDolduruldu", bakiye - bakiyedenDüşülecekMiktar, bakiyedenDüşülecekMiktar));
+            UnturnedChat.Say(oyuncu, YakıtTamir.Örnek.Translate("YakıtDolduruldu", bakiye - bakiyedenDüşülecekMiktar, bakiyedenDüşülecekMiktar));
         }
     }
 }

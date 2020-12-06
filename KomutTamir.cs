@@ -73,10 +73,10 @@ namespace DaeYakitTamir
             {
                 Uconomy.Instance.Database.IncreaseBalance(komutuÇalıştıran.Id, -bakiyedenDüşülecekMiktar);
             }
-			
+            
             araç.askRepair(YakıtTamir.Örnek.Configuration.Instance.SabitFiyataTamirEt ? araç.asset.health : tamirEdilecekMiktar);
 
-			UnturnedChat.Say(oyuncu, YakıtTamir.Örnek.Translate("TamirEdildi", bakiye - bakiyedenDüşülecekMiktar, bakiyedenDüşülecekMiktar));
+            UnturnedChat.Say(oyuncu, YakıtTamir.Örnek.Translate("TamirEdildi", bakiye - bakiyedenDüşülecekMiktar, bakiyedenDüşülecekMiktar));
         }
     }
 }
